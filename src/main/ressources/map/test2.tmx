@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32">
+  <image source="tuile/test.png" width="100" height="100"/>
+ </tileset>
+ <layer name="Fond" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQ0AAAzDoM6/6Qs5JKyaqqqq7x6slrLfEA4AAA==
+  </data>
+ </layer>
+ <layer name="sol" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UMQ4AIAgDWfn/h50dFKzSxoQmLIZwCkU3MxcFW83lctk+UHlQ3ecXNXa1VPv7479xcs8op+K9mZpVe4nkoXNHZsbWL9yb+aHclRcQqft862k0n63mzufZfYhqZLnVai6Xq4gBxNPb5BAOAAA=
+  </data>
+ </layer>
+</map>

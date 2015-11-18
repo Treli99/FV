@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="sol" tilewidth="64" tileheight="64">
+  <image source="tuile/sol.png" width="800" height="600"/>
+ </tileset>
+ <layer name="fond" width="60" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDodNY/2JmYw9IWDVVVVVVffoAnXey9cASAAA=
+  </data>
+ </layer>
+ <layer name="solBase" width="60" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VQQrAMAgEfUFI7+3/v5lLToXQTY247WbAkyBODFrMrIiFCtv336j6juJ4WYeNavguQ52jmenZG5nO2beL8b+iRPoyvlNkH2q+jGT6Zsx/z5cHdFfO7FVm3ztPvZ49fzlqMIH0iuTZfD23/4u+I1b6KkUDOSP6tMASAAA=
+  </data>
+ </layer>
+ <layer name="eau" width="60" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PMQ0AAAgEMTzg3ysOWFjIp01OwFUBAAAA3/RSIr/Zv1cDjItxlMASAAA=
+  </data>
+ </layer>
+ <layer name="lave" width="60" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PQQ0AAAjEMEzg3yoO4M2lTSZgVQAAAMA3vZTIb/bvZQBC4IahwBIAAA==
+  </data>
+ </layer>
+ <layer name="accroche" width="60" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WsQ0AIAhEUVaS/YezNeaIlUHkv4rCgsAlaAYAffhSj7QuUJGfn1xFXrV9L8wJPyPvvak7pDIQ3Svyghdk/6dQ2wSn07VbwBIAAA==
+  </data>
+ </layer>
+ <layer name="glissa" width="60" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PwQ0AIAgEQXrS/mujBqJRSGbe97iNAJhv/z5wySpsuzRXPp/q0gwAALyVSlgSDsASAAA=
+  </data>
+ </layer>
+</map>

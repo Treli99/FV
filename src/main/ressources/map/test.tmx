@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="test4" tilewidth="32" tileheight="32">
+  <image source="../perso/test4.png" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="451" name="test4" tilewidth="32" tileheight="32">
+  <image source="../perso/test4.png" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="901" name="test4" tilewidth="32" tileheight="32">
+  <image source="../perso/test4.png" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="1351" name="test4" tilewidth="32" tileheight="32">
+  <image source="../perso/test4.png" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="1801" name="test4" tilewidth="32" tileheight="32">
+  <image source="../perso/test4.png" width="800" height="600"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="10" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC1NmZ2BQxoPvMjIwKOGQm88MwSA1yOpAYuhqcKnDhXGpw2a/EpJbsamDYZg6aQbS1WFTqwRVA8PIbkdXx0UE5gRiAFrSCQGQAQAA
+  </data>
+ </layer>
+ <layer name="logic" width="10" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWDCQAADA0iRpABAAA=
+  </data>
+ </layer>
+ <objectgroup name="Calque d'objets 1" width="10" height="10">
+  <object name="changeMap" type="changeMap" x="8" y="276" width="43" height="35">
+   <properties>
+    <property name="map" value="sans-titre5.tmx"/>
+    <property name="xx" value="150"/>
+    <property name="yy" value="150"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

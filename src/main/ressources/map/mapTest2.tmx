@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="logic" tilewidth="32" tileheight="32">
+  <image source="../../../../../Game1/src/main/ressources/perso/logic.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="tuilemaptest" tilewidth="32" tileheight="32">
+  <image source="../../../../../Game1/src/main/ressources/map/tuile/tuilemaptest.jpg" width="128" height="128"/>
+ </tileset>
+ <layer name="fond" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQ0AAAzDoNqZf4MXckhYNVVVVd89O2vFXhAOAAA=
+  </data>
+ </layer>
+ <layer name="sol" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYPgAWTLwSLeX2m4aBaMAFxhNayMbkFNe0boMJRUMJvsHU7iMglEwCoY2AADifEzWEA4AAA==
+  </data>
+ </layer>
+ <layer name="mur" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VQQ7AIAgEeUg59P+fbHqn2oWlksokezSjRFcVEQ3kdOZeG2WV1+NmedE97ug9wDC8nlTxorPIeL9felHay2N01zK9o7v2xzlX9qL9HO1ub08+5a2f0fHWGWYzYXotf+af1jTNOi5RJr4rEA4AAA==
+  </data>
+ </layer>
+ <layer name="logic" width="30" height="30" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WWwoAIAhEUd3/ptuB5GuknAv9diSCUhHRoZVtyo3a6La6W+5hleudqWN+pOuNbv3e1j38ybXa6qL/EB3ujV95xui3Jeozxt7tALrqtkYQDgAA
+  </data>
+ </layer>
+</map>

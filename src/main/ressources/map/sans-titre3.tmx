@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="mountains" tilewidth="32" tileheight="32">
+  <image source="tuile/mountains.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="109" name="watergrass" tilewidth="32" tileheight="32">
+  <image source="tuile/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="127" name="herbe" tilewidth="32" tileheight="32">
+  <image source="tuile/herbe.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="145" name="bridges" tilewidth="32" tileheight="32">
+  <image source="tuile/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="187" name="treetop" tilewidth="32" tileheight="32">
+  <image source="tuile/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="229" name="tronc" tilewidth="32" tileheight="32">
+  <image source="tuile/tronc.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="247" name="logic" tilewidth="32" tileheight="32">
+  <image source="../perso/logic.png" width="160" height="160"/>
+ </tileset>
+ <layer name="Calque 3" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YwQrDMAgGYF+5sEHZ2AP00rzyCKwQJGlj1Oioh//QQ9MPiYLdAGC7yP4Lfp6RKxv2ePfNTvj8+FL4hn1JwZe//SjydOj7FFkaRopP0oh9OauAT8oo5cM2KSPFd+b04KParH1nLktfgn5fQu+MpOY7zi5tvR7pWmLfMQO5Hikj9uEahq/dG7X+uJNvB55thm907mn7uHNZ08ex/ZvvVcnbkc96jlj4pHrXm6+2m3nxtXbb8I3bNH0UY/h0bJb16/kvFT6ezeL+UWw5X5WoXH4AGQAA
+  </data>
+ </layer>
+ <layer name="Calque 4" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Yuw5AQBSEYRVq1KhR4/3fRRQo8ALGpV0rS85RzJf82W4z9fG8ZyIUO5Q8/P+tv+9LUeZQLrSvQKVDldC+GjUOtUL7iIi+0l1vr7rCbEAjmrSHGMxoQav2ECIiIiIiOvgouCnUm3aw3RSlbocm3PfO3/fZbsa52rKT7WYsdRs2sd2M99vwBovYqIEAGQAA
+  </data>
+ </layer>
+ <layer name="Calque 5" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OPQ4BURSG4VmDsR7GX2P8NphBZwxrRIFCbMQ6vMUtbsRt7wn53uRJTnGKL0lUzBpIPzTRQtv9+HfsMnTQRQ99DDBE7n78O3YjjDHBFDPMscDS/fh37FYoUGKNDbZGW761Q4U9ahxwNF2k/rETzrhYDwl0xQ136yGBHnjhaT1EKaWUUkoppZRS6sd7A5IDYCQAGQAA
+  </data>
+ </layer>
+ <layer name="Calque 5" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OAQ0AAAgDoPdPZixj3DlIQAIAXDLtAAAAAMADCx4j7P4AGQAA
+  </data>
+ </layer>
+ <layer name="logic" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YiwqDMAxFkynb/v9nnY/NtbhiF4urC6Qp5sDFKkoPAfsCyOOV+R5l/vO7o9Tg131C8c8aBGhx2y7h53Nz/V9xvZ+jd2hbAu8ywVKX3l0Hl9HlAUu9gu8E27Y03i3UbZTvfpdQlzglaqSFZ5SLwjrE/+Qd9Tl2JFLjQS7mx2PPLzWXSVNz/TRQm5+2MZD6aauh+fEwPx7mx0O7H91LnH0/YRhGHojf+2+a0uu8X2eKpcdh8+NRg19q/teyDtDulzrrpOuUN/sAbNgAGQAA
+  </data>
+ </layer>
+ <objectgroup name="triger" width="40" height="40">
+  <object name="entree1" type="teleport" x="682" y="89" width="44" height="50">
+   <properties>
+    <property name="dest-x" value=""/>
+    <property name="dest-y" value=""/>
+   </properties>
+  </object>
+  <object name="entree2" type="teleport" x="584" y="87" width="47" height="50">
+   <properties>
+    <property name="dest-x" value="32,406"/>
+    <property name="dest-y" value="34"/>
+   </properties>
+  </object>
+  <object name="entree1" type="teleport" gid="152" x="687" y="121">
+   <properties>
+    <property name="dest-x" value="36,656"/>
+    <property name="dest-y" value="34"/>
+   </properties>
+  </object>
+  <object name="sortie1" type="teleport" x="1173" y="1150" width="67" height="27">
+   <properties>
+    <property name="dest-x" value="21,312"/>
+    <property name="dest-y" value="3,5"/>
+   </properties>
+  </object>
+  <object name="sortie2" type="teleport" x="1037" y="1149" width="74" height="25">
+   <properties>
+    <property name="dest-x" value="18,250"/>
+    <property name="dest-y" value="3,5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="herbe" tilewidth="32" tileheight="32">
+  <image source="tuile/herbe.png" width="96" height="192"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OwQkAQAgEMf/23+8VIXsoZGD+6arq4cmmNj4+Pj4+Pj4+Pj4+Pr4/5o2mhC/VRpMkSdLlHu70WegAGQAA
+  </data>
+ </layer>
+ <layer name="logic" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAAAAwJcBSxPzAQAZAAA=
+  </data>
+ </layer>
+</map>

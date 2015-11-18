@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tronc" tilewidth="32" tileheight="32">
+  <image source="tuile/tronc.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="19" name="herbe" tilewidth="32" tileheight="32">
+  <image source="tuile/herbe.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="waterfall" tilewidth="32" tileheight="32">
+  <image source="tuile/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="52" name="montagne" tilewidth="32" tileheight="32">
+  <image source="tuile/mountains.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="160" name="bridges" tilewidth="32" tileheight="32">
+  <image source="tuile/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="202" name="treetop" tilewidth="32" tileheight="32">
+  <image source="tuile/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="244" name="watergrass" tilewidth="32" tileheight="32">
+  <image source="tuile/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Wyw6CQAxFO0b+wYUr+f/PM4pGlAaaDA1gbTuPRG7SsJyTc5kHgD6tcl7D9MLR5mzgg8RslH/3Z3W4+7Nl92fL7s+WFP6aAHAM4xdHm1T+KFY+MPBt+bsOEyr1h2yHMPLX5g9ZiO/iwOfpj7PV6C/mq80fZyvtr4N5tz3jezjwnRKxxd3Wymft18oGESNni7vV8mn3BvHRHYHD+Tz6tZwpfK/yibvN7W+tU+9+Lf7eK1xLbKX8tRuMHnyp/HUw5yrlT8JXwh+ut+ZviS23P3pHpebTns20npQtpz9ioH7jPezNp/33mulcvgnZcvqj98od5N3m8hczIN9zmhRsmF/9feMo6S83G0biD+96SYcl/PFYuD4KIwKHABkAAA==
+  </data>
+ </layer>
+ <layer name="Calque 2" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SMQ9BMRSFG4tnwK96zJgxY2Jn51dgED/zneFJmptS7qvctDlf8qXbuee2da4bNZy0dsXPSpXpvJxQ3q9z/Kx/7fzOqSIrFXJv7ZxPb6Hhm/t7zbO+v1hHC1L+vxmcC0sntLN0Dw9wEclawpWwdEI7S4/wBNeKrNLZwG3EM7zAnSKLEEIIIeVyhTd4N+6RK4/2fJq2IMSGnnWBjOnDCg6si2TKEI7g2LoIyY4G4+XoLwAZAAA=
+  </data>
+ </layer>
+ <layer name="Calque 3" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TwQ2AIBBEUZpBUQTsvzrnRANzWDf5L/n3CWFL+ZeuHjWihyTF+3mautQdPSSpqg51Rg9Jivv1cL8e/p9nqqXe6CEAAAAAAGD7AMxyx2kAGQAA
+  </data>
+ </layer>
+</map>

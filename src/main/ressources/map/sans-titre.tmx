@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="vegetation" tilewidth="32" tileheight="32">
+  <image source="tuile/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="43" name="structure en bois" tilewidth="32" tileheight="32">
+  <image source="tuile/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="85" name="eau" tilewidth="32" tileheight="32">
+  <image source="tuile/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="103" name="cascade" tilewidth="32" tileheight="32">
+  <image source="tuile/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="118" name="montagne" tilewidth="32" tileheight="32">
+  <image source="tuile/mountains.png" width="384" height="288"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UQQrCMBRF0S5TUAdq7f6XYAIRSkiNA5MIOQceDpwELr/LAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDHlsY4W2GMUWqhR19HDeLuYbdxT5vOpwY69HXUInfq+ahJuYf/UbuH6JqNdmotLmFr2DNt7fSuGe1v41H4P2+hRzu179Q5/b4b7Mfv1W4j9ii10KONb3qUWsS9ANae3BdAnAAA
+  </data>
+ </layer>
+ <layer name="relief" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBt5RKnmQJwAAA==
+  </data>
+ </layer>
+</map>

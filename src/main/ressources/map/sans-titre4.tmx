@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="mountains" tilewidth="32" tileheight="32">
+  <image source="tuile/mountains.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="109" name="logic" tilewidth="32" tileheight="32">
+  <image source="../perso/logic.png" width="160" height="160"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TwQkAIQxFQXuw/163gV1cjWiUefCPgbmklPzV3YBGdWB8fHzn+lYab/StjI+Pb56N79v390aaVaZ/eIsvFl8svljZfZIk9fYA8btstgAZAAA=
+  </data>
+ </layer>
+ <layer name="Calque 3" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Otw2AUBAEUTqhAAogxqSYFBNi+2+AKeBI+RKaJ020yWaZlFYeVFFNDbXB/pXipY56GmgM9i+VQRPNtNAa7ClttNNBJ110J30kSZIkSZIk6Y8eAx5SSQAZAAA=
+  </data>
+ </layer>
+ <layer name="logic" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WywqAMAwE88M+6v8f7KGiSMXCShJhFvYihhmILZrlziTUy89zzovj6fe2v+j99rrUrrWldg7222615nZ4lPbs+k7099dzHpn7On84H55zXhz8NA5+Ggc/jYPfycn8f0q0ZN/nKBc/jYufxsVP4+L3zM18PxNCCMmZHcv8lDYAGQAA
+  </data>
+ </layer>
+ <objectgroup name="trigger" width="40" height="40">
+  <object name="e1" type="teleport" x="384" y="541" width="65" height="35">
+   <properties>
+    <property name="xx" value="256"/>
+    <property name="yy" value="800"/>
+   </properties>
+  </object>
+  <object name="s1" type="teleport" x="254" y="702" width="66" height="35">
+   <properties>
+    <property name="xx" value="12"/>
+    <property name="yy" value="13"/>
+   </properties>
+  </object>
+  <object name="stair" type="stair" x="187" y="139" width="63" height="90"/>
+  <object name="changeMap" type="changeMap" x="348" y="215" width="75" height="44">
+   <properties>
+    <property name="map" value="sans-titre5.tmx"/>
+    <property name="xx" value="300"/>
+    <property name="yy" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
